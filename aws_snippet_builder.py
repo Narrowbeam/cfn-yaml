@@ -33,7 +33,7 @@ except:
 soup = BeautifulSoup(html_doc, 'html.parser')
 
 # Selector based lookup - gets what we want and awstoc duplicates
-urllisttmp = soup.select('li a[href*="aws-resource-"]')
+urllisttmp = soup.select('li a[href*="aws-"]')
 
 # Build a list of link description, url
 for url in urllisttmp:
@@ -86,10 +86,11 @@ for (pagelink,pageurl) in urllist:
   snippet = snippet + snippetEnd
   snippet = snippet +  snippetFinish
 
-  # if count == 40:
+  # if count == 10:
   #   break
 
   print "writing: " + "cfn-yaml/" + hotkey+".sublime-snippet"
+  # print snippet
   try:
     os.mkdir("cfn-yaml/" + pagelinklist[1])
   except:
