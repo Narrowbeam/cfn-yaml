@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html
+Type: "AWS::OpsWorks::Stack"
+Properties: 
+  AgentVersion: String
+  Attributes:
+    String:String
+  ChefConfiguration:
+    ChefConfiguration
+  ConfigurationManager:
+    StackConfigurationManager
+  CustomCookbooksSource:
+    Source
+  CustomJson: JSON
+  DefaultAvailabilityZone: String
+  DefaultInstanceProfileArn: String
+  DefaultOs: String
+  DefaultRootDeviceType: String
+  DefaultSshKeyName: String
+  DefaultSubnetId: String
+  HostnameTheme: String
+  Name: String
+  ServiceRoleArn: String
+  UseCustomCookbooks: Boolean
+  UseOpsworksSecurityGroups: Boolean
+  VpcId: String
+
+]]></content>
+  <tabTrigger>cfn-OpsWorks-Stack</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

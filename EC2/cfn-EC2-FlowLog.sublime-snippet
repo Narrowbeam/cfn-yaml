@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-flowlog.html
+Type: "AWS::EC2::FlowLog"
+Properties:
+  DeliverLogsPermissionArn" : String,
+  LogGroupName" : String,
+  ResourceId" : String,
+  ResourceType" : String,
+  TrafficType" : String
+
+]]></content>
+  <tabTrigger>cfn-EC2-FlowLog</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

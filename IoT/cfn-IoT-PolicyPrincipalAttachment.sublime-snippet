@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-policyprincipalattachment.html
+Type: "AWS::IoT::PolicyPrincipalAttachment"
+  Properties:
+    PolicyName: String
+    Principal: String
+]]></content>
+  <tabTrigger>cfn-IoT-PolicyPrincipalAttachment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

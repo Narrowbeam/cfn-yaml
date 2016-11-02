@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html
+Type: "AWS::ApiGateway::UsagePlan"
+Properties:
+  ApiStages: 
+  - ApiStage
+  Description: String
+  Quota: QuotaSettings
+  Throttle: ThrottleSettings
+  UsagePlanName: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGateway-UsagePlan</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

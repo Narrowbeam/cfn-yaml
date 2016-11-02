@@ -1,0 +1,41 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html
+Type: "AWS::ElastiCache::ReplicationGroup"
+Properties: 
+  AutomaticFailoverEnabled: Boolean
+  AutoMinorVersionUpgrade: Boolean
+  CacheNodeType: String
+  CacheParameterGroupName: String
+  CacheSecurityGroupNames:
+    - String
+  CacheSubnetGroupName: String
+  Engine: String
+  EngineVersion: String
+  NodeGroupConfiguration:
+    - NodeGroupConfiguration
+  NotificationTopicArn: String
+  NumCacheClusters: Integer
+  NumNodeGroups: Integer
+  Port: Integer
+  PreferredCacheClusterAZs:
+    - String
+  PreferredMaintenanceWindow: String
+  PrimaryClusterId: String
+  ReplicasPerNodeGroup: Integer
+  ReplicationGroupDescription: String
+  ReplicationGroupId: String
+  SecurityGroupIds:
+    - String
+  SnapshotArns:
+    - String
+  SnapshotName: String
+  SnapshotRetentionLimit: Integer
+  SnapshottingClusterId: String
+  SnapshotWindow: String
+  Tags
+    - Resource Tag
+]]></content>
+  <tabTrigger>cfn-ElastiCache-ReplicationGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

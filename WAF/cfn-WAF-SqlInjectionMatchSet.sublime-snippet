@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-sqlinjectionmatchset.html
+Type: "AWS::WAF::SqlInjectionMatchSet"
+Properties: 
+  Name: String
+  SqlInjectionMatchTuples:
+    - SqlInjectionMatchTuple 
+
+]]></content>
+  <tabTrigger>cfn-WAF-SqlInjectionMatchSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

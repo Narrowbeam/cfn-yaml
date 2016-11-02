@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-directoryservice-simplead.html
+Type: "AWS::DirectoryService::SimpleAD"
+Properties:
+  CreateAlias: Boolean
+  Description: String
+  EnableSso: Boolean
+  Name: String
+  Password: String
+  ShortName: String
+  Size: String
+  VpcSettings:
+    VpcSettings
+
+]]></content>
+  <tabTrigger>cfn-DirectoryService-SimpleAD</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

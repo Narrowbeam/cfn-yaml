@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-acl-entry.html
+Type: "AWS::EC2::NetworkAclEntry"
+Properties: 
+  CidrBlock: String
+  Egress: Boolean
+  Icmp:
+    EC2 ICMP
+  NetworkAclId: String
+  PortRange:
+    EC2 PortRange
+  Protocol: Integer
+  RuleAction : String
+  RuleNumber : Integer
+
+]]></content>
+  <tabTrigger>cfn-EC2-NetworkAclEntry</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

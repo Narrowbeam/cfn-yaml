@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html
+Type: "AWS::OpsWorks::Instance"
+Properties:
+  AmiId: String
+  Architecture: String
+  AutoScalingType: String
+  AvailabilityZone: String
+  EbsOptimized: Boolean
+  InstallUpdatesOnBoot: Boolean
+  InstanceType: String
+  LayerIds:
+    String
+  Os: String
+  RootDeviceType: String
+  SshKeyName: String
+  StackId: String
+  SubnetId: String
+  TimeBasedAutoScaling:
+    TimeBasedAutoScaling 
+
+]]></content>
+  <tabTrigger>cfn-OpsWorks-Instance</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

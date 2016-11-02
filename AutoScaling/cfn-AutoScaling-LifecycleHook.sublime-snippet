@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html
+Type: "AWS::AutoScaling::LifecycleHook"
+Properties:
+  AutoScalingGroupName: String
+  DefaultResult: String
+  HeartbeatTimeout: Integer
+  LifecycleTransition: String
+  NotificationMetadata: String
+  NotificationTargetARN: String
+  RoleARN: String
+
+]]></content>
+  <tabTrigger>cfn-AutoScaling-LifecycleHook</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

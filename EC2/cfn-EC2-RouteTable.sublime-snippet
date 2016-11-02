@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route-table.html
+Type: "AWS::EC2::RouteTable"
+Properties: 
+  VpcId: String
+  Tags:
+    - Resource Tag
+
+]]></content>
+  <tabTrigger>cfn-EC2-RouteTable</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

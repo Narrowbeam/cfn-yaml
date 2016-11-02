@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-authentication.html
+Type: "AWS::CloudFormation::Authentication"
+String:
+  accessKeyId: String
+  buckets:
+    - String
+  password: String
+  secretKey: String
+  type: String
+  uris:
+    - String
+  username: String
+  roleName: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-Authentication</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

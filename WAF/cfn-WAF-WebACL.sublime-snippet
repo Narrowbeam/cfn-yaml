@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html
+Type: "AWS::WAF::WebACL"
+Properties: 
+  DefaultAction:
+    Action
+  MetricName: String
+  Name: String
+  Rules:
+    - Rule 
+
+]]></content>
+  <tabTrigger>cfn-WAF-WebACL</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html
+Type: "AWS::ElasticLoadBalancingV2::ListenerRule"
+Properties:
+  Actions:
+    - Actions
+  Conditions:
+    - Conditions
+  ListenerArn: String
+  Priority: Integer
+
+]]></content>
+  <tabTrigger>cfn-ElasticLoadBalancingV2-ListenerRule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

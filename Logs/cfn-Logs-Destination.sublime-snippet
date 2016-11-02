@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-destination.html
+Type: "AWS::Logs::Destination"
+Properties: 
+  DestinationName: String
+  DestinationPolicy: String
+  RoleArn: String
+  TargetArn: String
+
+]]></content>
+  <tabTrigger>cfn-Logs-Destination</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

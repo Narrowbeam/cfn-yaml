@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-subscriptionfilter.html
+Type: "AWS::Logs::SubscriptionFilter"
+Properties: 
+  DestinationArn: String
+  FilterPattern: String
+  LogGroupName: String
+  RoleArn: String
+
+]]></content>
+  <tabTrigger>cfn-Logs-SubscriptionFilter</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

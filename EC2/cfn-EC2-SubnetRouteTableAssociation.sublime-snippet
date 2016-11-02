@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet-route-table-assoc.html
+Type: "AWS::EC2::SubnetRouteTableAssociation"
+Properties: 
+  RouteTableId: String
+  SubnetId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-SubnetRouteTableAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

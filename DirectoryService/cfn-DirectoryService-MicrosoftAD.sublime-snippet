@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-directoryservice-microsoftad.html
+Type: "AWS::DirectoryService::MicrosoftAD"
+Properties:
+  CreateAlias: Boolean
+  EnableSso: Boolean
+  Name: String
+  Password: String
+  ShortName: String
+  VpcSettings:
+    VpcSettings
+
+]]></content>
+  <tabTrigger>cfn-DirectoryService-MicrosoftAD</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

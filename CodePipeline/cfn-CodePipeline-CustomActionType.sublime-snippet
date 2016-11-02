@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html
+Type: "AWS::CodePipeline::CustomActionType"
+Properties:
+  Category: String,
+  ConfigurationProperties:
+    - ConfigurationProperties
+  InputArtifactDetails:
+    ArtifactDetails
+  OutputArtifactDetails:
+    ArtifactDetails
+  Provider: String
+  Settings:
+    Settings
+  Version: String
+
+]]></content>
+  <tabTrigger>cfn-CodePipeline-CustomActionType</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html
+Type: "AWS::RDS::DBCluster"
+Properties:
+  AvailabilityZones:
+    - String
+  BackupRetentionPeriod: Integer
+  DatabaseName: String
+  DBClusterParameterGroupName: String
+  DBSubnetGroupName: String
+  Engine: String
+  EngineVersion: String
+  KmsKeyId: String
+  MasterUsername: String
+  MasterUserPassword: String
+  Port: Integer
+  PreferredBackupWindow: String
+  PreferredMaintenanceWindow: String
+  SnapshotIdentifier: String
+  StorageEncrypted: Boolean
+  Tags:
+    Resource Tag
+  VpcSecurityGroupIds:
+    - String
+
+]]></content>
+  <tabTrigger>cfn-RDS-DBCluster</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

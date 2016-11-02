@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-interface.html
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+      - ParameterGroup
+    ParameterLabels:
+      ParameterLabel
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-Interface</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

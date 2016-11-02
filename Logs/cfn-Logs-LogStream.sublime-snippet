@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-logstream.html
+Type: "AWS::Logs::LogStream"
+Properties: 
+  LogGroupName: String
+  LogStreamName: String
+
+]]></content>
+  <tabTrigger>cfn-Logs-LogStream</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

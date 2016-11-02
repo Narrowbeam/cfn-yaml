@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-host.html
+Type: "AWS::EC2::Host"
+Properties: 
+  AutoPlacement: String
+  AvailabilityZone: String
+  InstanceType: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-Host</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

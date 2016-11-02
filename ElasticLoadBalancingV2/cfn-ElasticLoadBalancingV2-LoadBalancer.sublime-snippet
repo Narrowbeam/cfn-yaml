@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html
+Type: "AWS::ElasticLoadBalancingV2::LoadBalancer"
+Properties:
+  LoadBalancerAttributes:
+    - LoadBalancerAttributes
+  Name: String
+  Scheme: String,
+  SecurityGroups:
+    - String
+  Subnets:
+    - String
+  Tags:
+    - Resource Tag
+
+]]></content>
+  <tabTrigger>cfn-ElasticLoadBalancingV2-LoadBalancer</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

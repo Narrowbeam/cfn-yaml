@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-security-group-ingress.html
+Type: "AWS::RDS::DBSecurityGroupIngress"
+Properties:  
+  CIDRIP: String
+  DBSecurityGroupName: String
+  EC2SecurityGroupId: String
+  EC2SecurityGroupName: String
+  EC2SecurityGroupOwnerId: String
+
+]]></content>
+  <tabTrigger>cfn-RDS-DBSecurityGroupIngress</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

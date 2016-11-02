@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html
+Type: "AWS::CodeDeploy::DeploymentGroup"
+Properties:
+  ApplicationName: String
+  AutoScalingGroups:
+    - String
+  Deployment:
+    Deployment
+  DeploymentConfigName: String
+  DeploymentGroupName: String
+  Ec2TagFilters:
+    - Ec2TagFilters
+  OnPremisesInstanceTagFilters:
+    - OnPremisesInstanceTagFilters
+  ServiceRoleArn: String
+
+]]></content>
+  <tabTrigger>cfn-CodeDeploy-DeploymentGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

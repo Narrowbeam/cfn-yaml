@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-clientcertificate.html
+Type: "AWS::ApiGateway::ClientCertificate"
+Properties:
+  Description: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGateway-ClientCertificate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

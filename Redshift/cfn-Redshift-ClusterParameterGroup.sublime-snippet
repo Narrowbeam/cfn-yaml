@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html
+Type: "AWS::Redshift::ClusterParameterGroup"
+Properties: 
+  Description: String
+  ParameterGroupFamily: String
+  Parameters:
+    - Parameter 
+
+]]></content>
+  <tabTrigger>cfn-Redshift-ClusterParameterGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-gatewayrouteprop.html
+Type: "AWS::EC2::VPNGatewayRoutePropagation"
+Properties: 
+  RouteTableIds:
+    - String
+  VpnGatewayId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-VPNGatewayRoutePropagation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

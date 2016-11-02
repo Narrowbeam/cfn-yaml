@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html
+Type: "AWS::ECR::Repository"
+Properties: 
+  RepositoryName: String
+  RepositoryPolicyText: JSON object
+
+]]></content>
+  <tabTrigger>cfn-ECR-Repository</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

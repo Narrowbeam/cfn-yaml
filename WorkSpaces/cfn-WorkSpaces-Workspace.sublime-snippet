@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html
+Type: "AWS::WorkSpaces::Workspace"
+Properties: 
+  BundleId: String
+  DirectoryId: String
+  UserName: String
+  RootVolumeEncryptionEnabled: Boolean
+  UserVolumeEncryptionEnabled: Boolean
+  VolumeEncryptionKey: String
+
+]]></content>
+  <tabTrigger>cfn-WorkSpaces-Workspace</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

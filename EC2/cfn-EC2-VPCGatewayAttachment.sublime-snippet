@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc-gateway-attachment.html
+Type: "AWS::EC2::VPCGatewayAttachment"
+Properties: 
+  InternetGatewayId: String
+  VpcId: String
+  VpnGatewayId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-VPCGatewayAttachment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-authorizer.html
+Type: "AWS::ApiGateway::Authorizer"
+Properties:
+  AuthorizerCredentials: String
+  AuthorizerResultTtlInSeconds: Integer
+  AuthorizerUri: String
+  IdentitySource: String
+  IdentityValidationExpression: String
+  Name: String
+  ProviderARNs:  - String
+  RestApiId: String
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGateway-Authorizer</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>
