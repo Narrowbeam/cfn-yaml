@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html
+Type: "AWS::Route53::RecordSet"
+Properties: 
+  AliasTarget: AliasTarget
+  Comment: String
+  Failover: String
+  GeoLocation:
+    GeoLocation
+  HealthCheckId: String
+  HostedZoneId: String
+  HostedZoneName: String
+  Name: String
+  Region: String
+  ResourceRecords:
+    - String
+  SetIdentifier: String
+  TTL: String
+  Type: String
+  Weight: Integer
+
+]]></content>
+  <tabTrigger>cfn-Route53-RecordSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

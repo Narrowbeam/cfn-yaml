@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk.html
+Type: "AWS::ElasticBeanstalk::Application"
+Properties:
+  ApplicationName: String
+  Description: String
+
+]]></content>
+  <tabTrigger>cfn-ElasticBeanstalk-Application</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

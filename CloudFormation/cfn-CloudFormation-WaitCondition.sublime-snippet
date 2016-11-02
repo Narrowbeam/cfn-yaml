@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-waitcondition.html
+Type: "AWS::CloudFormation::WaitCondition"
+Properties: 
+  Count: String
+  Handle: String
+  Timeout: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-WaitCondition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

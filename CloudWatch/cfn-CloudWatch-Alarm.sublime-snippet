@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html
+Type: "AWS::CloudWatch::Alarm"
+Properties:
+  ActionsEnabled: Boolean
+  AlarmActions:
+    - String
+  AlarmDescription: String
+  AlarmName: String
+  ComparisonOperator: String
+  Dimensions:
+    - Metric dimension
+  EvaluationPeriods: String
+  InsufficientDataActions:
+    - String
+  MetricName: String
+  Namespace: String
+  OKActions:
+    - String
+  Period: String
+  Statistic: String
+  Threshold: String
+  Unit: String
+
+]]></content>
+  <tabTrigger>cfn-CloudWatch-Alarm</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

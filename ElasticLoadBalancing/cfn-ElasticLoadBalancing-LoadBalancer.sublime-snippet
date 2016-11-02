@@ -1,0 +1,39 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb.html
+Type: "AWS::ElasticLoadBalancing::LoadBalancer"
+Properties:
+  AccessLoggingPolicy:
+    AccessLoggingPolicy
+  AppCookieStickinessPolicy:
+    - AppCookieStickinessPolicy
+  AvailabilityZones:
+    - String
+  ConnectionDrainingPolicy:
+    ConnectionDrainingPolicy
+  ConnectionSettings:
+    ConnectionSettings
+  CrossZone: Boolean
+  HealthCheck:
+    HealthCheck
+  Instances:
+    - String
+  LBCookieStickinessPolicy:
+    - LBCookieStickinessPolicy
+  LoadBalancerName: String
+  Listeners:
+    - Listener
+  Policies:
+    - ElasticLoadBalancing Policy
+  Scheme: String,
+  SecurityGroups:
+    Security Group
+  Subnets:
+    - String
+  Tags
+    - Resource Tag
+
+]]></content>
+  <tabTrigger>cfn-ElasticLoadBalancing-LoadBalancer</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

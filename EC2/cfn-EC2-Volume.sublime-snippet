@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volume.html
+Type: "AWS::EC2::Volume"
+Properties:
+  AutoEnableIO: Boolean
+  AvailabilityZone: String
+  Encrypted: Boolean
+  Iops: Number
+  KmsKeyId: String
+  Size: String
+  SnapshotId: String
+  Tags:
+    - Resource Tag
+  VolumeType: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-Volume</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

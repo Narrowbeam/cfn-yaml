@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html
+Type: "AWS::ElasticBeanstalk::Environment"
+Properties:
+  ApplicationName: String
+  CNAMEPrefix: String
+  Description: String
+  EnvironmentName: String
+  OptionSettings: 
+    - OptionSettings
+  SolutionStackName: String
+  Tags:
+    - Resource Tag, ...
+  TemplateName: String
+  Tier:
+    Environment Tier
+  VersionLabel: String
+
+]]></content>
+  <tabTrigger>cfn-ElasticBeanstalk-Environment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

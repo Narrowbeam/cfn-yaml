@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html
+Type: "AWS::IAM::User"
+Properties: 
+  Groups:
+    - String
+  LoginProfile:
+    LoginProfile Type
+  ManagedPolicyArns:
+    - String
+  Path: String
+  Policies:
+    - Policies
+  UserName: String
+
+]]></content>
+  <tabTrigger>cfn-IAM-User</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>
