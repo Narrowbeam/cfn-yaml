@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+  Mapping01:
+   	Key01: 
+      Name: Value01
+    Key02: 
+      Name: Value02
+    Key03: 
+      Name: Value03
+]]></content>
+  <tabTrigger>cfn-Mapping</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>
