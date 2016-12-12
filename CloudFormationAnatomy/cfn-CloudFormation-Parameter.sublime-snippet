@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+  ParameterName:
+    Description: String  
+    Type: String | Number | List<number> | CommaDelimitedList | <AWS-Specific Parameter Types>
+    Default: t2.micro
+    AllowedPattern: String
+    AllowedValues: 
+      - String
+      - String
+      - String
+    ConstraintDescription: String
+    MaxLength: String
+    MaxValue: String
+    MinLength: String
+    NoEcho: Boolean
+    
+]]></content>
+  <tabTrigger>cfn-Parameter</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>
