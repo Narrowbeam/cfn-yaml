@@ -21,6 +21,6 @@ Usage:
 cd ~/.config/sublime-text-3/Packages/User
 git clone https://github.com/Narrowbeam/cfn-yaml.git
 ```
-Please note that these are still a work in progress and will evolve over time to include inter-field tabbing support (see Todo Issues)
+Please note that while this was a work in progress, it does provide a fairly full set of snippets.  Since I created this collection, i've taken the decision for various reasons to migrate towards vscode as my default editor, so won't be updating this repo going forwards.  I may however write a more generic snippet generator for aws resources following AWS releasing the resource api spec in machine readable json format.  No more crawling the documentation set to build the snippets.  If I do this, I will produce snippets for sublime as well as vscode; Until then, hope this remains fairly up to date.
 
 If you find any issues or want to expand the snippet set, just create a pull request :-)
