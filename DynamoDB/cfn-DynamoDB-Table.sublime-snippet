@@ -4,18 +4,32 @@
 Type: "AWS::DynamoDB::Table"
 Properties:
   AttributeDefinitions:
-    - AttributeDefinitions
+    - AttributeDefinition
+  BillingMode: String
+  ContributorInsightsSpecification:
+    ContributorInsightsSpecification
   GlobalSecondaryIndexes:
-    - GlobalSecondaryIndexes
+    - GlobalSecondaryIndex
   KeySchema:
     - KeySchema
+  KinesisStreamSpecification:
+    KinesisStreamSpecification
   LocalSecondaryIndexes:
-    - LocalSecondaryIndexes
+    - LocalSecondaryIndex
+  PointInTimeRecoverySpecification:
+    PointInTimeRecoverySpecification
   ProvisionedThroughput:
     ProvisionedThroughput
+  SSESpecification:
+    SSESpecification
   StreamSpecification:
     StreamSpecification
+  TableClass: String
   TableName: String
+  Tags:
+    - Tag
+  TimeToLiveSpecification:
+    TimeToLiveSpecification
 
 ]]></content>
   <tabTrigger>cfn-DynamoDB-Table</tabTrigger>
