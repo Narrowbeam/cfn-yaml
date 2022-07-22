@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-sqlinjectionmatchset.html
+# AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-sqlinjectionmatchset.html
 Type: "AWS::WAF::SqlInjectionMatchSet"
 Properties: 
   Name: String

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-interface.html
+# AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-interface.html
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:

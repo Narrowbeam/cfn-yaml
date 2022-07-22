@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html
+# AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html
 Type: "AWS::EC2::VPC"
 Properties: 
   CidrBlock: String

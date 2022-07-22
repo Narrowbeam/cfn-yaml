@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html
+# AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html
 Type: "AWS::Lambda::Permission"
 Properties: 
   Action: String

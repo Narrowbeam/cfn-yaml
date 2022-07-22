@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html
+# AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html
 Type: "AWS::ApiGateway::RestApi"
 Properties:
   Body: JSON object

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html
+# AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html
 Type: "AWS::CodePipeline::Pipeline"
 Properties:
   ArtifactStore:
@@ -12,6 +12,8 @@ Properties:
   RoleArn: String
   Stages:
     - Stages
+  Tags:
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-CodePipeline-Pipeline</tabTrigger>
