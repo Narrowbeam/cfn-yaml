@@ -15,7 +15,9 @@ Conditions:
 Resources:
   set of resources
 Outputs:
-  set of outputs]]></content>
+  set of outputs
+
+]]></content>
   <tabTrigger>cfn-Start</tabTrigger>
   <scope>source.yaml, source.cloudformation</scope>
 </snippet>
