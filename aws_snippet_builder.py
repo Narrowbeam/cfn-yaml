@@ -68,7 +68,7 @@ for (pagelink,pageurl) in urllist:
   # print hotkey
 
   snippet = snippet +  snippetStart
-  snippet = snippet +  "#AWS-DOC " + pageurl + '\n'
+  snippet = snippet +  "# AWS-DOC " + pageurl + '\n'
 
   page = requests.get(pageurl).content
   soup2 = BeautifulSoup(page, 'html.parser')

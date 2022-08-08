@@ -10,7 +10,7 @@ To activate snippets once installed, simply ensure your document type is set to 
 
 This snippet set was inspired by cform package that provides a full snippet set for json based cloudformation APIs.
 
-Should you wish to remove the documentation links after you've finished creating your template, then simply do a search and replace with regex enabled finding `#AWS-DOC.*\n` and replace with `nothing`
+Should you wish to remove the documentation links after you've finished creating your template, then simply do a search and replace with regex enabled finding `# AWS-DOC.*\n` and replace with `nothing`
 
 ```
 Usage:
